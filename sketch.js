@@ -15,9 +15,9 @@ function setup() {
 //in my case density=1
 // d stands for density from now on
 
-// It's important to know that in p5.js pixels are read as arrays, to be more specific an one dimensional array that contains the colors stored as numbers, representing red, green, blue, and alpha (RGBA) 
+// It's important to know that p5.js pixels are represented as arrays, to be more specific an one dimensional array that contains the colors stored as numbers, representing red, green, blue, and alpha (RGBA) 
 
-//when using the pixels its necessary to convert the position to an index, the formula is index = 4*(d*y)*(d*width)+4*(d*x)
+//when using the pixels it's necessary to convert the position to an index, the formula is index = 4*(d*y)*(d*width)+4*(d*x)
 
 // In this case we're gonna use  index = 4*(d* floor(this.rsensorPos.y))*(d*width)+4*(d*floor(this.rsensorPos.x)), the function floor is used to convert the result to an integer and we add the sensor position of the coordinates that we began with
 
