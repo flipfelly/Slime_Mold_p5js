@@ -14,4 +14,10 @@ A visual simulation inspired by the fascinating behavior of **Slime Molds**, cre
 - **Generative art**: Each run produces a unique and unpredictable pattern.
 - **Explore your creativity**: Play around with different values in the constructor of the Mold class to discover new behaviors and designs.
 
+## Outros experimentos 
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="assets/exp1.gif" alt="Slime Mold Preview 1" width="400" />
+  <img src="assets/exp2.gif" alt="Slime Mold Preview 2" width="400" />
+</div>
 
